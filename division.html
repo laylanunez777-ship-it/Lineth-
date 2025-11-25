@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>División</title>
+</head>
+<body>
+
+<header><h1>Calculadora Web Interactiva</h1></header>
+
+<div class="container calc">
+<h2>División</h2>
+
+<input id="v1" type="number" placeholder="Valor 1"><br><br>
+<input id="v2" type="number" placeholder="Valor 2"><br><br>
+
+<button onclick="calc()">Calcular</button>
+
+<h3>Resultado: <span id="res">---</span></h3>
+
+<a href="index.html"><button>Volver</button></a>
+</div>
+
+<footer><p>Proyecto Lab6 - Programación Web III</p></footer>
+
+<script>
+function calc(){
+ let a = parseFloat(document.getElementById("v1").value);
+ let b = parseFloat(document.getElementById("v2").value);
+ let r = b !== 0 ? (a / b) : "Error: división por cero";
+ document.getElementById("res").textContent = r;
+}
+</script>
+
+</body>
+</html>

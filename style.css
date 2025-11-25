@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    margin:0; padding:0;
+}
+header, footer{
+    background:#85047a; 
+    color:white; 
+    text-align:center; 
+    padding:15px;
+}
+.container{
+    max-width:400px; 
+    margin:40px auto; 
+    background:white;
+    padding:20px; 
+    border-radius:12px; 
+    box-shadow:0 0 10px #aaa;
+}
+button{
+    padding:10px 20px; 
+    border:none; 
+    border-radius:8px;
+    cursor:pointer; 
+    margin:5px; 
+    font-size:16px;
+}
+button:hover{ 
+    opacity:0.8; 
+}
+a{ 
+    text-decoration:none; 
+}
+.menu button{ 
+    width:100%; 
+    background:#af4ca7; 
+    color:white;
+}
+.calc button{ 
+    background:#2196F3; 
+    color:white; 
+}
